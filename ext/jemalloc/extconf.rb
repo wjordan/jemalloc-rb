@@ -2,7 +2,7 @@ require 'mkmf'
 require 'rbconfig'
 
 $stdout.sync = true
-pkg = "jemalloc-4.0.4"
+pkg = "jemalloc-4.1.0"
 
 def sys(cmd)
   puts "$ #{cmd}"
